@@ -1,5 +1,6 @@
 # Login to Azure subscription
-name: 'Azure Login'
+name: Azure Login
+  uses: Azure/login@v1
 description: 'Authenticate to Azure using OIDC and run your Az CLI or Az PowerShell based Actions or scripts. github.com/Azure/Actions'
 inputs: 
   creds:
